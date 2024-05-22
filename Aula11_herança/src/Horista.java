@@ -2,7 +2,9 @@ public class Horista extends Empregado{
     private double horas;
 
     // Construtor
-    public Horista(double n, String e, double h) {
+    public Horista(String nome, String endereço, double salario, double horas) {
+        super(nome,endereço,salario);
+        this.horas = horas;
 }
 
 // mmetodos de acesso

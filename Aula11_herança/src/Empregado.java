@@ -1,6 +1,6 @@
 public class Empregado {
     protected String nome;
-    protected String endereço;
+    protected String endereco;
     protected double salario;
 
     public String getNome() {
@@ -27,6 +27,12 @@ public class Empregado {
         this.nome = nome;
         this.endereco = endereco;
         this.salario = salario;
+    }
+    public void Imprimir(){
+
+        System.out.println("Nome: " + getNome());
+        System.out.println("EndereçoNome: " + getEndereco());
+        System.out.println("Salario: " + getSalario());
     }
 
     // Construtor Vázio
@@ -69,4 +75,4 @@ public class Empregado {
     }
     }
     
-}
+
